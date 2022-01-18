@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-pine-tree;
+}
+
+.background {
+  @apply block absolute top-0 left-0 -z-10;
+}
+
+#close {
+  clip-path: circle(192px at center center);
+}

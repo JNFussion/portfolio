@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import Particles from "particlesjs/dist/particles";
+import React, { useEffect } from "react";
+import About from "./components/About";
+import Hero from "./components/Hero";
+import Skills from "./components/Skills";
 
 function App() {
+  useEffect(() => {
+    window.onload = function () {
+      Particles.init({
+        selector: ".background",
+        color: ["#6AA445"],
+        connectParticles: true,
+      });
+    };
+    return () => {};
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <article className="snap-mandatory snap-y overflow-y-scroll max-h-screen">
+      <Hero />
+      <About />
+      <Skills />
+    </article>
   );
 }
 
