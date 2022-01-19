@@ -4,7 +4,7 @@ function About() {
   return (
     <section className="snap-center h-screen grid items-center">
       <div className="my-10 p-20 bg-white">
-        <h2 className="w-fit mx-auto my-4 font-bold text-xl">
+        <h2 className="w-fit mx-auto my-4 font-bold text-4xl">
           <span className="border-b border-b-army-green">About me</span>
         </h2>
         <p className="max-w-4xl mx-auto">

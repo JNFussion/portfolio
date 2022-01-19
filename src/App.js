@@ -2,6 +2,7 @@ import Particles from "particlesjs/dist/particles";
 import React, { useEffect } from "react";
 import About from "./components/About";
 import Hero from "./components/Hero";
+import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 
 function App() {
@@ -17,10 +18,11 @@ function App() {
   }, []);
 
   return (
-    <article className="snap-mandatory snap-y overflow-y-scroll max-h-screen">
+    <article className="snap-y overflow-y-scroll max-h-screen">
       <Hero />
       <About />
       <Skills />
+      <Projects />
     </article>
   );
 }

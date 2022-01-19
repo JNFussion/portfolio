@@ -1,15 +1,15 @@
 import React from "react";
-import htmlLogo from "../images/logos/HTML5 Logo Badge.svg";
-import cssLogo from "../images/logos/CSS3_logo.svg";
-import tailwindLogo from "../images/logos/Tailwind_CSS_Logo.svg";
-import javascriptLogo from "../images/logos/js.svg";
-import reactLogo from "../images/logos/reactLogo.png";
-import jestLogo from "../images/logos/jest-seeklogo.com.svg";
-import rubyLogo from "../images/logos/Ruby_logo.png";
-import rubyOnRailsLogo from "../images/logos/Ruby_On_Rails_Logo.svg";
-import postgresqlLogo from "../images/logos/Postgresql_elephant.svg";
-import gitLogo from "../images/logos/Git-logo.svg";
-import webpackLogo from "../images/logos/webpack_logo.svg";
+import htmlLogo from "../assets/images/logos/HTML5 Logo Badge.svg";
+import cssLogo from "../assets/images/logos/CSS3_logo.svg";
+import tailwindLogo from "../assets/images/logos/Tailwind_CSS_Logo.svg";
+import javascriptLogo from "../assets/images/logos/js.svg";
+import reactLogo from "../assets/images/logos/reactLogo.png";
+import jestLogo from "../assets/images/logos/jest-seeklogo.com.svg";
+import rubyLogo from "../assets/images/logos/Ruby_logo.png";
+import rubyOnRailsLogo from "../assets/images/logos/Ruby_On_Rails_Logo.svg";
+import postgresqlLogo from "../assets/images/logos/Postgresql_elephant.svg";
+import gitLogo from "../assets/images/logos/Git-logo.svg";
+import webpackLogo from "../assets/images/logos/webpack_logo.svg";
 
 function Skills() {
   return (
