@@ -13,7 +13,10 @@ import webpackLogo from "../assets/images/logos/webpack_logo.svg";
 
 function Skills() {
   return (
-    <article id="skills" className="snap-center h-screen grid items-center">
+    <article
+      id="skills"
+      className="snap-start md:snap-center md:h-screen grid items-center p-16"
+    >
       <div className="max-w-5xl mx-auto">
         <h2 className="my-4 text-4xl font-bold text-green-ryb-light">
           <span className="border-b border-b-screaming-green">Skills</span>

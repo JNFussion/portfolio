@@ -3,8 +3,8 @@ import React from "react";
 function About() {
   return (
     <section id="about" className="snap-center h-screen grid items-center">
-      <div className="my-10 p-20 bg-white">
-        <h2 className="w-fit mx-auto my-4 font-bold text-4xl">
+      <div className="my-10 px-10 py-20 md:p-20 bg-white">
+        <h2 className="w-fit mx-auto my-4 font-bold text-2xl md:text-4xl">
           <span className="border-b border-b-army-green">About me</span>
         </h2>
         <div className="max-w-4xl mx-auto">

@@ -78,7 +78,7 @@ function Contact() {
         <h2 className="text-4xl font-bold text-green-ryb-light">
           <span className="border-b border-b-screaming-green">Contact me</span>
         </h2>
-        <ul className="flex justify-evenly my-10 py-10 rounded text-2xl text-celeste font-medium bg-pine-tree-dark/75">
+        <ul className="flex flex-wrap justify-evenly my-10 py-10 rounded text-2xl text-celeste font-medium bg-pine-tree-dark/75">
           <li>
             <a
               href="https://www.linkedin.com/in/juan-jose-gutierrez-gutierrez-3264641b2/"

@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 function Navbar(params) {
   return (
     <nav className="sticky top-0 z-50 flex justify-between p-4 text-celeste bg-pine-tree-dark">
-      <ul className="flex gap-5">
+      <ul className="hidden sm:flex gap-5">
         <li>
           <a href="#home" className="hover:underline">
             Home
