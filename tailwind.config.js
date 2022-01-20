@@ -13,6 +13,7 @@ module.exports = {
         celeste: "#A2F6F6",
       },
       gridTemplateRows: {
+        "1fr": "1fr",
         media: "1fr 2fr 1fr",
       },
     },

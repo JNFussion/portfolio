@@ -5,12 +5,12 @@ import Modal from "./Modal";
 
 function Projects() {
   return (
-    <article className="snap-start h-screen">
+    <article className="snap-start">
       <div className="max-w-5xl mx-auto py-10">
         <h2 className="text-4xl font-bold text-green-ryb-light">
           <span className="border-b border-b-screaming-green">Projects</span>
         </h2>
-        <div className="my-10 p-10 bg-army-green/75 backdrop-blur">
+        <div className="my-10 p-10 rounded bg-army-green/75 backdrop-blur">
           {ProjectsList.map(
             ({
               title,
@@ -39,14 +39,16 @@ function Projects() {
                   <p>{description}</p>
                   <footer>
                     <ul className="flex gap-5">
-                      <li>
-                        <a
-                          href={liveURL}
-                          className="text-celeste transition-all duration-50 ease-in-out hover:underline"
-                        >
-                          Live
-                        </a>
-                      </li>
+                      {liveURL && (
+                        <li>
+                          <a
+                            href={liveURL}
+                            className="text-celeste transition-all duration-50 ease-in-out hover:underline"
+                          >
+                            Live
+                          </a>
+                        </li>
+                      )}
                       <li>
                         <a
                           href={codeURL}

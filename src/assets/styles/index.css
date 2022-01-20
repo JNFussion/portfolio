@@ -19,3 +19,63 @@ body {
 #close {
   clip-path: circle(192px at center center);
 }
+
+#arrow,
+#arrow::before {
+  @apply absolute w-3 h-3 bg-inherit;
+}
+
+#arrow {
+  @apply invisible;
+}
+
+#arrow::before {
+  @apply visible;
+  content: "";
+  transform: rotate(45deg);
+}
+
+#tooltip[data-popper-placement^="top"] > #arrow {
+  bottom: -4px;
+}
+
+#tooltip[data-popper-placement^="bottom"] > #arrow {
+  top: -4px;
+}
+
+#tooltip[data-popper-placement^="left"] > #arrow {
+  right: -4px;
+}
+
+#tooltip[data-popper-placement^="right"] > #arrow {
+  left: -4px;
+}
+
+#tooltip {
+  display: none;
+}
+
+#tooltip[data-show] {
+  display: block;
+}
+
+@keyframes trans {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+#modalMessage {
+  animation-name: trans;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+}
