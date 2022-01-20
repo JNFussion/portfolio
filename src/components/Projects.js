@@ -5,7 +5,7 @@ import Modal from "./Modal";
 
 function Projects() {
   return (
-    <article className="snap-start">
+    <article id="projects" className="snap-start">
       <div className="max-w-5xl mx-auto py-10">
         <h2 className="text-4xl font-bold text-green-ryb-light">
           <span className="border-b border-b-screaming-green">Projects</span>
@@ -43,7 +43,9 @@ function Projects() {
                         <li>
                           <a
                             href={liveURL}
+                            target="_blank"
                             className="text-celeste transition-all duration-50 ease-in-out hover:underline"
+                            rel="noreferrer"
                           >
                             Live
                           </a>
@@ -52,7 +54,9 @@ function Projects() {
                       <li>
                         <a
                           href={codeURL}
+                          target="_blank"
                           className="text-celeste hover:underline"
+                          rel="noreferrer"
                         >
                           Code
                         </a>

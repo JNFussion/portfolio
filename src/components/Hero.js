@@ -3,7 +3,7 @@ import closeupPhoto from "../assets/images/photo-closeup.jpg";
 
 function Hero() {
   return (
-    <header className="snap-center h-screen flex items-center">
+    <header id="home" className="snap-center h-screen flex items-center">
       <div className="flex-1">
         <div className="w-fit px-4 py-6 mx-auto text-white rounded shadow shadow-white/30 bg-army-green/75 backdrop-blur">
           <h1 className="grid">

@@ -64,7 +64,7 @@ function Contact() {
   }, [modalMessage]);
 
   return (
-    <article className="snap-center h-screen grid items-center">
+    <article id="contact" className="snap-center h-screen grid items-center">
       {modalMessage && (
         <article
           id="modalMessage"
@@ -82,7 +82,9 @@ function Contact() {
           <li>
             <a
               href="https://www.linkedin.com/in/juan-jose-gutierrez-gutierrez-3264641b2/"
+              target="_blank"
               className="flex gap-2 items-center hover:underline"
+              rel="noreferrer"
             >
               <span className="text-3xl">
                 <FaLinkedin />
@@ -93,7 +95,9 @@ function Contact() {
           <li>
             <a
               href="https://github.com/JNFussion"
+              target="_blank"
               className="flex gap-2 items-center hover:underline"
+              rel="noreferrer"
             >
               <span>
                 <FaGithub />

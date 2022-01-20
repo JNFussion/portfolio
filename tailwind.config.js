@@ -10,7 +10,7 @@ module.exports = {
         "pine-tree": { DEFAULT: "#212000", dark: "#0F0F00" },
         "army-green": "#313D0F",
         "screaming-green": "#9BF973",
-        celeste: "#A2F6F6",
+        celeste: { DEFAULT: "#A2F6F6", dark: "#085050" },
       },
       gridTemplateRows: {
         "1fr": "1fr",
