@@ -25,6 +25,15 @@ function About() {
             That website is a open source community with a curated list of
             webdev resources and it&apos;s focused in building projects.
           </p>
+          <p>
+            I have gained experience in HTML, CSS, JavaScript and ReactJS which
+            i have acquired in my personal projects. Also I have learn Ruby On
+            Rails to use it as back-end. <br />
+            In this process i have found that I&apos;m a creative person with
+            good problem solving skills. Furthermore, I’m a quiet person who
+            likes to work alone but I wouldn’t have any problem working in a
+            team.
+          </p>
         </div>
       </div>
     </section>
