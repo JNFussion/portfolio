@@ -81,7 +81,7 @@ function Contact() {
         <ul className="flex flex-col sm:flex-row sm:justify-evenly items-center my-10 py-10 rounded text-2xl text-celeste font-medium bg-pine-tree-dark/75">
           <li>
             <a
-              href="https://www.linkedin.com/in/juan-jose-gutierrez-gutierrez-3264641b2/"
+              href="https://www.linkedin.com/in/juan-josé-gutiérrez-gutiérrez-3264641b2/"
               target="_blank"
               className="flex gap-2 items-center hover:underline"
               rel="noreferrer"

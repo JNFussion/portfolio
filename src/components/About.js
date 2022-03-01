@@ -30,9 +30,8 @@ function About() {
             i have acquired in my personal projects. Also I have learn Ruby On
             Rails to use it as back-end. <br />
             In this process i have found that I&apos;m a creative person with
-            good problem solving skills. Furthermore, I’m a quiet person who
-            likes to work alone but I wouldn’t have any problem working in a
-            team.
+            good problem solving skills. Furthermore, I&apos;m a quiet person
+            who has the ability to work alone as well as a part of a team.
           </p>
         </div>
       </div>
