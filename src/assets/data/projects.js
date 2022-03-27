@@ -1,36 +1,36 @@
-import YelpcampLanding from "../images/projects/Yelpcamp/landing.png";
-import YelpcampSearch from "../images/projects/Yelpcamp/searchPage.png";
-import YelpcampCamp from "../images/projects/Yelpcamp/camp.png";
-import YelpcampComment from "../images/projects/Yelpcamp/comment.png";
+import YelpcampLanding from "../images/projects/Yelpcamp/landing.webp";
+import YelpcampSearch from "../images/projects/Yelpcamp/searchPage.webp";
+import YelpcampCamp from "../images/projects/Yelpcamp/camp.webp";
+import YelpcampComment from "../images/projects/Yelpcamp/comment.webp";
 
-import notTwitterLogin from "../images/projects/Not Twitter/login.png";
-import notTwitterHome from "../images/projects/Not Twitter/home.png";
-import notTwitterProfile from "../images/projects/Not Twitter/profile.png";
+import notTwitterLogin from "../images/projects/Not Twitter/login.webp";
+import notTwitterHome from "../images/projects/Not Twitter/home.webp";
+import notTwitterProfile from "../images/projects/Not Twitter/profile.webp";
 
-import battleshipStart from "../images/projects/Battleship/start.png";
-import battleshipAttacking from "../images/projects/Battleship/attacking.png";
-import battleshipSunkenShip from "../images/projects/Battleship/sunkenShip.png";
+import battleshipStart from "../images/projects/Battleship/start.webp";
+import battleshipAttacking from "../images/projects/Battleship/attacking.webp";
+import battleshipSunkenShip from "../images/projects/Battleship/sunkenShip.webp";
 
-import weatherAppHome from "../images/projects/Weather App/Homepage.png";
-import weatherAppSearch from "../images/projects/Weather App/Search.png";
-import weatherAppResult from "../images/projects/Weather App/Result.png";
+import weatherAppHome from "../images/projects/Weather App/Homepage.webp";
+import weatherAppSearch from "../images/projects/Weather App/Search.webp";
+import weatherAppResult from "../images/projects/Weather App/Result.webp";
 
-import TodoListHome from "../images/projects/TodoList/Home.png";
-import TodoListPriority from "../images/projects/TodoList/Priority.png";
-import TodoListProject from "../images/projects/TodoList/Project.png";
-import TodoListToday from "../images/projects/TodoList/Today.png";
-import TodoListUpcoming from "../images/projects/TodoList/Upcoming.png";
+import TodoListHome from "../images/projects/TodoList/Home.webp";
+import TodoListPriority from "../images/projects/TodoList/Priority.webp";
+import TodoListProject from "../images/projects/TodoList/Project.webp";
+import TodoListToday from "../images/projects/TodoList/Today.webp";
+import TodoListUpcoming from "../images/projects/TodoList/Upcoming.webp";
 
-import OdinProjectHero from "../images/projects/OdinProject/Hero.png";
-import OdinProjectHow from "../images/projects/OdinProject/HowItWorks.png";
-import OdinProjectLearn from "../images/projects/OdinProject/Learn.png";
-import OdinProjectSuccess from "../images/projects/OdinProject/Success.png";
+import OdinProjectHero from "../images/projects/OdinProject/Hero.webp";
+import OdinProjectHow from "../images/projects/OdinProject/HowItWorks.webp";
+import OdinProjectLearn from "../images/projects/OdinProject/Learn.webp";
+import OdinProjectSuccess from "../images/projects/OdinProject/Success.webp";
 
-import TheNextWebHero from "../images/projects/TheNextWeb/Hero.png";
-import TheNextWebPopular from "../images/projects/TheNextWeb/Popular.png";
-import TheNextWebExplore from "../images/projects/TheNextWeb/Explore.png";
-import TheNextWebVideos from "../images/projects/TheNextWeb/Videos.png";
-import TheNextWebWork from "../images/projects/TheNextWeb/Work.png";
+import TheNextWebHero from "../images/projects/TheNextWeb/Hero.webp";
+import TheNextWebPopular from "../images/projects/TheNextWeb/Popular.webp";
+import TheNextWebExplore from "../images/projects/TheNextWeb/Explore.webp";
+import TheNextWebVideos from "../images/projects/TheNextWeb/Videos.webp";
+import TheNextWebWork from "../images/projects/TheNextWeb/Work.webp";
 
 const ProjectsList = [
   {

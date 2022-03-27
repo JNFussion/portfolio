@@ -1,5 +1,5 @@
 import React from "react";
-import closeupPhoto from "../assets/images/photo-closeup.jpg";
+import closeupPhoto from "../assets/images/photo-closeup.webp";
 
 function Hero() {
   return (
@@ -26,9 +26,5 @@ function Hero() {
     </header>
   );
 }
-// text-5xl
-// text-6xl
-// text-2xl
 
-// w-96 h-auto
 export default Hero;
