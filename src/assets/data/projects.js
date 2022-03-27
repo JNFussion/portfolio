@@ -1,3 +1,8 @@
+import YelpcampLanding from "../images/projects/Yelpcamp/landing.png";
+import YelpcampSearch from "../images/projects/Yelpcamp/searchPage.png";
+import YelpcampCamp from "../images/projects/Yelpcamp/camp.png";
+import YelpcampComment from "../images/projects/Yelpcamp/comment.png";
+
 import notTwitterLogin from "../images/projects/Not Twitter/login.png";
 import notTwitterHome from "../images/projects/Not Twitter/home.png";
 import notTwitterProfile from "../images/projects/Not Twitter/profile.png";
@@ -28,6 +33,15 @@ import TheNextWebVideos from "../images/projects/TheNextWeb/Videos.png";
 import TheNextWebWork from "../images/projects/TheNextWeb/Work.png";
 
 const ProjectsList = [
+  {
+    title: "Yelpcamp",
+    description:
+      "Yelpcamp is my solotion to one of the Codewell's challenges. The page consist in a list of campgrounds on Earth, where users can recommend and review camps",
+    photoPreview: YelpcampLanding,
+    photos: [YelpcampLanding, YelpcampSearch, YelpcampCamp, YelpcampComment],
+    liveURL: "https://obscure-shore-42840.herokuapp.com/",
+    codeURL: "https://github.com/JNFussion/Yelpcamp-solution",
+  },
   {
     title: "Not Twitter",
     description:
