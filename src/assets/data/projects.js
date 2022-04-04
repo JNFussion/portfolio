@@ -1,3 +1,8 @@
+import CatwikiHome from "../images/projects/Catwiki/Home.webp";
+import CatwikiHome2 from "../images/projects/Catwiki/Home_2.webp";
+import CatwikiBreed from "../images/projects/Catwiki/Breed.webp";
+import CatwikiTop from "../images/projects/Catwiki/Top.webp";
+
 import YelpcampLanding from "../images/projects/Yelpcamp/landing.webp";
 import YelpcampSearch from "../images/projects/Yelpcamp/searchPage.webp";
 import YelpcampCamp from "../images/projects/Yelpcamp/camp.webp";
@@ -34,9 +39,18 @@ import TheNextWebWork from "../images/projects/TheNextWeb/Work.webp";
 
 const ProjectsList = [
   {
+    title: "Catwiki",
+    description:
+      "Catwiki is my solution to one of the devChallenges's challenges. The page consist of information about different breeds of cats.",
+    photoPreview: CatwikiHome,
+    photos: [CatwikiHome, CatwikiHome2, CatwikiTop, CatwikiBreed],
+    liveURL: "https://catwiki-devchallenge.herokuapp.com/",
+    codeURL: "https://github.com/JNFussion/Catwiki",
+  },
+  {
     title: "Yelpcamp",
     description:
-      "Yelpcamp is my solotion to one of the Codewell's challenges. The page consist in a list of campgrounds on Earth, where users can recommend and review camps",
+      "Yelpcamp is my solution to one of the Codewell's challenges. The page consist in a list of campgrounds on Earth, where users can recommend and review camps",
     photoPreview: YelpcampLanding,
     photos: [YelpcampLanding, YelpcampSearch, YelpcampCamp, YelpcampComment],
     liveURL: "https://obscure-shore-42840.herokuapp.com/",
